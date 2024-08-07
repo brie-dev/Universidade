@@ -1,19 +1,49 @@
 @charset "UTF-8";
 
 * {
+    /* text-align: center;
+    color: blue; */
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+p, h1, h2{
     text-align: center;
-    color: blue;
 }
 
-p{
-    text-align: justify;
-    color: crimson;
+.tamanho {
+    width: 30%;
+    height: 250px;
+    border: solid 1px;
+    border-radius: 50px 5px;
 }
 
-#paragrafo{
+.espaco {
+    padding: 20px;
+}
+
+.principal {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.cor1 {
+    background-color: chocolate;
+}
+
+.cor2 {
+    background-color: aqua;
+}
+
+.cor3 {
+    background-color: cadetblue;
+}
+/* #paragrafo{
     color: rgb(255, 179, 124);
 }
 
 .paragrafo{
     color: rgb(124, 255, 157);
-}
+} */
