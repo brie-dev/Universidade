@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+    color: blue;
+}
+
+p{
+    text-align: justify;
+    color: crimson;
+}
+
+#paragrafo{
+    color: rgb(255, 179, 124);
+}
+
+.paragrafo{
+    color: rgb(124, 255, 157);
+}
