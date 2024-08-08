@@ -1,0 +1,70 @@
+/* BARRA DE NAVEGAÇÃO VERTICAL */
+ul.v{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+    width: 200px;
+}
+li.v a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li.v a:hover{
+    background-color: gray;
+    color: white;
+}
+/* BARRA DE NAVEGAÇÃO HORIZONTAL */
+ul.h{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+}
+li.h{
+    float: left;
+}
+li.h a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li.h a:hover{
+    background-color: gray;
+    color: white;
+}
+/* BARRA DE NAVEGAÇÃO SUBMENU */
+ul.s{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+ul.s li.s {
+    position: relative;
+}
+li.s ul.s{
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+ul.s li.s a{
+    display: block;
+    color: palevioletred;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+ul.s li.s a:hover{
+    background-color: #ccc;
+    text-decoration: underline;
+    font-weight: bold;
+}
+li.s:hover ul.s {
+    display: block;
+}
