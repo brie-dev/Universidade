@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style-08.css">
+    <title>Transformações e Transições em CSS</title>
+</head>
+<body>
+    <div class="geral">eu &#9829; css!</div>
+    <br>
+    <div class="div1 geral">eu &#9829; css!</div>
+    <div class="div2 geral">eu &#9829; css!</div>
+    <div class="div3 geral">eu &#9829; css!</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h2>Exemplos</h2>
+    <table style="border: 1px, solid #ccc;">
+        <tr>
+            <th>Transforme Horizontal</th>
+            <td>
+                <div onmouseover="transXf(this)" onmouseout="transXi(this)" class="geral2">eu &#9829; css!</div>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <th>Transforme Vertical</th>
+            <td>
+                <div onmouseover="transYf(this)" onmouseout="transYi(this)" class="geral2">eu &#9829; css!</div>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <th>Transforme Horizontal/Vertical</th>
+        <td>
+            <div onmouseover="transf(this)" onmouseout="transi(this)" class="geral2">eu &#9829; css!</div>
+        </td>
+    </table>
+    <br>
+    <br>
+    <br>
+    <img src="imagens/ada-wong.jpg" onmouseover="acao(this)" onmouseout="inicial(this)">
+
+    <script>
+        function inicial(x){
+            x.style.transform = 'rotate(-20deg)'
+        }
+        function acao(x){
+            x.style.transform = 'rotate(20deg)'
+        }
+        function transXf(x){
+            x.style.transform = 'translateX(80px)'
+        }
+        function transXi(x){
+            x.style.transform = 'translateX(0px)'
+        }
+        function transYf(x){
+            x.style.transform = 'translateY(80px)'
+        }
+        function transYi(x){
+            x.style.transform = 'translateY(0px)'
+        }
+        function transf(x){
+            x.style.transform = 'translate(80px, 100px)'
+        }
+        function transi(x){
+            x.style.transform = 'translate(0px, 0px)'
+        }
+    </script>
+</body>
+</html>
