@@ -1,0 +1,76 @@
+/* ESTILO 1 */
+.estilo1:link{
+    color: red;
+}
+.estilo1:visited{
+    color: blue;
+}
+.estilo1:hover{
+    color: yellow;
+}
+
+/* ESTILO 2 */
+.estilo2:link{
+    color: red;
+}
+.estilo2:visited{
+    color: blue;
+}
+.estilo2:hover{
+    font-size: 150%;
+}
+
+/* ESTILO 3 */
+.estilo3:link{
+    color: red;
+}
+.estilo3:visited{
+    color: blue;
+}
+.estilo3:hover{
+    color: green;
+}
+
+/* ESTILO 4 */
+.estilo4:link{
+    color: red;
+}
+.estilo4:visited{
+    color: blue;
+}
+.estilo4:hover{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ESTILO 5 */
+.estilo4:link{
+    color: red;
+    text-decoration: none;
+}
+.estilo4:visited{
+    color: blue;
+    text-decoration: none;
+}
+.estilo4:hover{
+    text-decoration: underline;
+}
+
+h2::before{
+    content: url(../imagens/8dea954b01bdda6d9f6c396f86b59835.gif);
+}
+.letra::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+.letra::first-line{
+    color: blue;
+    font-variant: small-caps;
+}
+::marker {
+    color: yellow;
+    font-size: 23px;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
