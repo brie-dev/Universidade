@@ -271,3 +271,11 @@ form .btn-enviar input[type=submit]{
     transition: .2s;
 }
 /* RODAPÉ */
+/* footer{
+    padding: 60px 4%;
+    background-color: #000;
+    color: white;
+}
+footer .flex {
+    justify-content: space-between;
+} */
