@@ -119,6 +119,7 @@ header .menu-desktop a:hover{
 .sobre-imagem img{
     height: auto;
   }
+/* BIOGRAFIA */
 .bio{
     padding: 40px 4%;
     background-color: #000;
@@ -135,4 +136,94 @@ header .menu-desktop a:hover{
 .bio .bio-texto h1{
     line-height: 60px;
 }
+/* PORTFÓLIO */
+.fotos{
+    padding: 40px 4%;
+    margin-bottom: 50px;
+}
+.fotos-texto{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fotos .fotos-texto h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.fotos-imagem{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.fotos-imagem img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* FEEDBACK */
+.feedback{
+    background-color: rgb(223, 146, 4);
+    padding: 40px 4%;
+}
+.feedback .feedback-texto h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    color: white;
+}
+
+.clientes {
+    padding: 20px;
+  }
+.clientes-texto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  
+  .clientes-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Espaço entre os depoimentos */
+  }
+  
+  .cliente {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .cliente-imagem {
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+  
+  .cliente-imagem img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer */
+  }
+  
+  .cliente-texto {
+    flex: 1;
+  }
+  
+  .cliente-texto p {
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .cliente-texto cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
 /* RODAPÉ */
