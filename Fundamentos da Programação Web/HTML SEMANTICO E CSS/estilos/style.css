@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid blue;
+    padding: 15px;
+}
+nav{
+    width: 25%;
+    float: right;
+    padding: 15px;
+    border: 1px solid blue;
+}
+section{
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid blue;
+}
