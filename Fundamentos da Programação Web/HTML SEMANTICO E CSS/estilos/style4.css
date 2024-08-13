@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: 4px solid #333;
+    font-size: 2.6rem;
+    padding: 10px;
+}
+.box{
+    width: 15%;
+    font: bold 1.3em sans-serif;
+    color: rgb(37, 29, 29);
+    padding: 10px 20px;
+    border: 3px dashed rgb(49, 11, 49);
+    text-align: center;
+}
+.box1{background: beige;}
+.box2{background: rgb(190, 190, 70);}
+.box3{background: rgb(231, 151, 31);}
+.box4{background: rgb(220, 245, 221);}
+.box5{background: rgb(49, 182, 166);}
+.box6{background: rgb(67, 91, 223);}
+.box7{background: rgb(170, 34, 197);}
+.box8{background: rgb(224, 42, 133);}
+.box9{background: rgb(224, 63, 63);}
