@@ -1,0 +1,36 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+body{
+    font: 2rem sans-serif;
+    background:white;
+    color: gray;
+    margin: 40px;
+}
+.box{
+    color: white;
+    border: 4px solid gray;
+    font-size: 2.6rem;
+    padding: 10px;
+}
+.box1{background-color: green;}
+.box2{background-color: orange;}
+.box3{background-color: purple;}
+.box4{background-color: red;}
+.box5{background-color: blue;}
+.box6{background-color: lightgray;}
+.box7{background-color: brown;}
+.box8{background-color: lightcyan;}
+.box9{background-color: lightgreen;}
+.box{
+    background-color: whitesmoke;
+    border-color: black;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 50px 80px 200px;
+    grid-template-rows: 80px 100px 100px;
+    gap: 10px;
+}
